@@ -69,6 +69,7 @@ So it's better to have a Nvidia graphic card to perform max.
 Some of the tools are quite slow, even on GPU. Using them on CPU should take a lot of time.
 
 For the Windows users, i share the dll's from opencv :
+Opencv downloads : (http://docs.encima.fr/index.php/s/zJnnmqgzd949cJD)
 
 These files should be near .exe files or on a place that is on windows path in env vars.
 
