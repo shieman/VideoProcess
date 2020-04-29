@@ -31,6 +31,8 @@ sprites, etc and interpolate new frames, generating a bigger frame-rate from the
 
 The link : https://grisk.itch.io/dain-app
 
+See tutos to use it. I won't explain.
+
 # Super Resolution
 This module contains several learning-based algorithms for upscaling an image.
 ### The models :
@@ -58,5 +60,18 @@ I hacked a part of source to include in mine to use possibility of cuda dnn.
 
 # Colorization
 Colorize Black and white (even colored) images and videos.
+It uses machine learning model to predict colors.
+
+# How it works
+Windows Only. Tested on Win 10.
+All the modules, except DAIN app, uses opencv 4.2 cuda 10.2.
+So it's better to have a Nvidia graphic card to perform max.
+Some of the tools are quite slow, even on GPU. Using them on CPU should take a lot of time.
+
+For the Windows users, i share the dll's from opencv :
+
+These files should be near .exe files or on a place that is on windows path in env vars.
+
+
 
 
