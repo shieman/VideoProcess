@@ -69,16 +69,17 @@ All the modules, except DAIN app, uses opencv 4.2 cuda 10.2.
 So it's better to have a Nvidia graphic card to perform max.
 Some of the tools are quite slow, even on GPU. Using them on CPU should take a lot of time.
 
-For the Windows users, i share the dll's from opencv :
-Opencv downloads : http://docs.encima.fr/index.php/s/zJnnmqgzd949cJD
+- download repository
+- install Cuda 10.2 and Cudnn 7.6.5.
+- For the Windows users, i share the dll's from opencv :
+  Opencv downloads : http://docs.encima.fr/index.php/s/zJnnmqgzd949cJD
+  the file opencv_videoio_ffmpeg420_64.old is a renamed opencv_videoio_ffmpeg420_64.dll file because i did not
+  manage the use of ffmpeg for videos. I did not find a good way to use it, do not know why so renamed in .old,
+  opencv does not use it...
 
-the file opencv_videoio_ffmpeg420_64.old is a renamed opencv_videoio_ffmpeg420_64.dll file because i did not
-manage the use of ffmpeg for videos. I did not find a good way to use it, do not know why so renamed in .old,
-opencv does not use it...
+  These files should be near .exe files or on a place that is on windows path in env vars.
 
-These files should be near .exe files or on a place that is on windows path in env vars.
-
-Some tools use models, place them in Models folder : http://docs.encima.fr/index.php/s/QN9QHbw8ef5bXEN
+- Some tools use models, place them in Models folder : http://docs.encima.fr/index.php/s/QN9QHbw8ef5bXEN
 
 All tools work in the same way, you can find help with --help for each one.
 Some parameters have default values, check thanks to --help.
