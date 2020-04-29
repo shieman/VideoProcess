@@ -1,5 +1,7 @@
 # VideoProcess
-Tools to colorize and upscale resolution for images and videos and add FPS to videos. All that thanks to Machine Learning.
+I needed video and image processings for a theater project. so i implemented this tools.
+Tools to denoise, colorize, upscale resolution, video stabilization, increase FPS to videos.
+All that thanks to Machine Learning.
 ### Tools :
 ```
 White Balance
