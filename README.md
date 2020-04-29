@@ -30,6 +30,7 @@ sprites, etc and interpolate new frames, generating a bigger frame-rate from the
 The link : https://grisk.itch.io/dain-app
 
 See tutos to use it. I won't explain.
+Cuda app, so Nvidia graphic card only.
 
 # Super Resolution
 This module contains several learning-based algorithms for upscaling an image.
