@@ -94,12 +94,10 @@ Multiply x3 the resolution of images and videos in Input folder, using Espcn alg
 
 # Thanks
 ```
-Opencv team
-Opencv contrib module xphoto team
-Opencv contrib module superres_dnn team
-Opencv contrib module videostab team
-Grisk Dain app
-Dain github team
+Opencv team - https://opencv.org/
+Opencv contrib module xphoto, superres_dnn, videostab teams - https://docs.opencv.org/4.2.0/modules.html
+Grisk Dain app - https://grisk.itch.io/dain-app
+Dain github team - https://github.com/baowenbo/DAIN
 ```
 
 
