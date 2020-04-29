@@ -1,6 +1,14 @@
 # VideoProcess
 Tools to colorize and upscale resolution for images and videos and add FPS to videos. All that thanks to Machine Learning.
-3 tools to increase video quality.
+**Tools :**
+'''
+White Balance
+Denoise
+Video Stabilization
+DAIN (extern tool)
+Super Resolution
+Colorization
+'''
 
 # Super Resolution
 This module contains several learning-based algorithms for upscaling an image.
