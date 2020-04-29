@@ -73,6 +73,7 @@ Some of the tools are quite slow, even on GPU. Using them on CPU should take a l
 - install Cuda 10.2 and Cudnn 7.6.5.
 - For the Windows users, i share the dll's from opencv :
   Opencv downloads : http://docs.encima.fr/index.php/s/zJnnmqgzd949cJD
+  
   the file opencv_videoio_ffmpeg420_64.old is a renamed opencv_videoio_ffmpeg420_64.dll file because i did not
   manage the use of ffmpeg for videos. I did not find a good way to use it, do not know why so renamed in .old,
   opencv does not use it...
