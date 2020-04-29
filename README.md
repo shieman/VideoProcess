@@ -90,6 +90,7 @@ They can process :
 
 ### example :
 SuperRes.exe --i=Input --o=Output --algo=espcn --scale=3
+
 Multiply x3 the resolution of images and videos in Input folder, using Espcn algo, and export results in Output folder.
 
 # Thanks
