@@ -9,23 +9,21 @@ DAIN (extern tool)
 Super Resolution
 Colorization
 ```
-# White Balance
-Color White Balance
 
-from opencv xphoto contrib module 
+# White Balance
+Color White Balance.
+from opencv xphoto contrib module.
 
 # Denoise
-Performs image denoising using the Block-Matching and 3D-filtering algorithm
-
-from opencv xphoto contrib module
+Performs image denoising using the Block-Matching and 3D-filtering algorithm.
+It works on Black and White images...
+from opencv xphoto contrib module.
 
 # Video Stabilization
 Perform video stabilization.
-
 From opencv videostab contrib module. 
 
 # DAIN
-
 "Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons,
 sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file."
 
@@ -69,10 +67,36 @@ So it's better to have a Nvidia graphic card to perform max.
 Some of the tools are quite slow, even on GPU. Using them on CPU should take a lot of time.
 
 For the Windows users, i share the dll's from opencv :
-Opencv downloads : (http://docs.encima.fr/index.php/s/zJnnmqgzd949cJD)
+Opencv downloads : http://docs.encima.fr/index.php/s/zJnnmqgzd949cJD
+
+the file opencv_videoio_ffmpeg420_64.old is a renamed opencv_videoio_ffmpeg420_64.dll file because i did not
+manage the use of ffmpeg for videos. I did not find a good way to use it, do not know why so renamed in .old,
+opencv does not use it...
 
 These files should be near .exe files or on a place that is on windows path in env vars.
 
+Some tools use models, place them in Models folder : http://docs.encima.fr/index.php/s/QN9QHbw8ef5bXEN
 
+All tools work in the same way, you can find help with --help for each one.
+Some parameters have default values, check thanks to --help.
+Each tool can process many files in same execution. They pick files in --input dir and export results in --output dir.
+They can process :
+    - .jpg, .png, .tif images
+    - .mov, .mp4 and .avi video files.
+      Videos are exported in .mov with avc1 codec.
+
+### example :
+SuperRes.exe --i=Input --o=Output --algo=espcn --scale=3
+Multiply x3 the resolution of images and videos in Input folder, using Espcn algo, and export results in Output folder.
+
+# Thanks
+```
+Opencv team
+Opencv contrib module xphoto team
+Opencv contrib module superres_dnn team
+Opencv contrib module videostab team
+Grisk Dain app
+Dain github team
+```
 
 
